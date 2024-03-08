@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "timewatchmod",
+	"version": "${version}",
+	"name": "Time Watch Mod",
+	"description": "I used ChatGPT to give me an idea and this mod is that so welcome to the time watch mod :)",
+	"authors": [
+		"WiseWarWolf"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All rights reserved",
+	"icon": "assets/time-watch-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.wisewarwolf.tw.TimeWatchMod"
+		],
+		"client": [
+			"com.wisewarwolf.tw.TimeWatchModClient"
+		],
+		"fabric-datagen": [
+			"com.wisewarwolf.tw.TimeWatchModDataGenerator"
+		]
+	},
+	"mixins": [
+		"time-watch-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
