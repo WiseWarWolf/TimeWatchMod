@@ -13,8 +13,15 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TIME_WATCH = registerItem("time_watch",
             new Item(new FabricItemSettings()));
-
     public static final Item BASIC_WATCH = registerItem("basic_watch",
+            new Item(new FabricItemSettings()));
+    public static final Item LEATHER_STRAP = registerItem("leather_strap",
+            new Item(new FabricItemSettings()));
+    public static final Item WATCH_BASE = registerItem("watch_base",
+            new Item(new FabricItemSettings()));
+    public static final Item TIME_WATCH_CLOCK = registerItem("time_watch_clock",
+            new Item(new FabricItemSettings()));
+    public static final Item BASIC_WATCH_CLOCK = registerItem("basic_watch_clock",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
@@ -26,9 +33,18 @@ public class ModItems {
     public static void addItemsToItemGroup(){
         addToItemGroup(ItemGroups.COMBAT, TIME_WATCH);
         addToItemGroup(ItemGroups.COMBAT, BASIC_WATCH);
+        addToItemGroup(ItemGroups.INGREDIENTS, TIME_WATCH_CLOCK);
+        addToItemGroup(ItemGroups.INGREDIENTS, BASIC_WATCH_CLOCK);
+        addToItemGroup(ItemGroups.INGREDIENTS, WATCH_BASE);
+        addToItemGroup(ItemGroups.INGREDIENTS, LEATHER_STRAP);
 
         addToItemGroup(ModItemGroup.TIME_GROUP, TIME_WATCH);
         addToItemGroup(ModItemGroup.TIME_GROUP, BASIC_WATCH);
+        addToItemGroup(ModItemGroup.TIME_GROUP, TIME_WATCH_CLOCK);
+        addToItemGroup(ModItemGroup.TIME_GROUP, BASIC_WATCH_CLOCK);
+        addToItemGroup(ModItemGroup.TIME_GROUP, WATCH_BASE);
+        addToItemGroup(ModItemGroup.TIME_GROUP, LEATHER_STRAP);
+
     }
 
 

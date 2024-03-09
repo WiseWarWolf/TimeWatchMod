@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "timewatchmod:item/leather_band"
+    "layer0": "timewatchmod:item/time_watch_clock"
   }
 }

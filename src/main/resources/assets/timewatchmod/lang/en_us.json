@@ -1,6 +1,11 @@
 {
   "item.timewatchmod.time_watch": "Time Watch",
   "item.timewatchmod.basic_watch": "Basic Watch",
+  "item.timewatchmod.watch_base": "Watch Base",
+  "item.timewatchmod.leather_strap": "Leather Strap",
+  "item.timewatchmod.time_watch_clock": "Time Watch Clock",
+  "item.timewatchmod.basic_watch_clock": "Basic Watch Clock",
+
 
   "itemgroup.time_group": "Time Watch Mod"
 }
