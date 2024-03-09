@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "$": {
+            "item": "minecraft:clock"
+        }
+    },
+    "pattern": [
+        " # ",
+        "#$#",
+        " # "
+    ],
+    "result": {
+        "count": 1,
+        "item": "timewatchmod:basic_watch_clock"
+    },
+    "show_notification": true
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherrack"
+        },
+        "G": {
+            "item": "minecraft:grass_block"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "T": {
+            "item": "minecraft:end_stone"
+        },
+        "C": {
+            "item": "minecraft:clock"
+        }
+    },
+    "pattern": [
+        "iNi",
+        "GET",
+        "iCi"
+    ],
+    "result": {
+        "count": 1,
+        "item": "timewatchmod:time_watch"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "item": "timewatchmod:leather_strap"
+        },
+        "X": {
+            "item": "timewatchmod:watch_base"
+        },
+        "$": {
+            "item": "timewatchmod:time_watch_clock"
+        }
+    },
+    "pattern": [
+        " $ ",
+        "#X#",
+        "   "
+    ],
+    "result": {
+        "count": 1,
+        "item": "timewatchmod:time_watch"
+    },
+    "show_notification": true
+}
