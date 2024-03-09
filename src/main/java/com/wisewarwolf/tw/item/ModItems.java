@@ -14,14 +14,25 @@ public class ModItems {
     public static final Item TIME_WATCH = registerItem("time_watch",
             new Item(new FabricItemSettings()));
 
+    public static final Item BASIC_WATCH = registerItem("basic_watch",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TimeWatchMod.MOD_ID, name), item);
     }
 
+
+
     public static void addItemsToItemGroup(){
         addToItemGroup(ItemGroups.COMBAT, TIME_WATCH);
+        addToItemGroup(ItemGroups.COMBAT, BASIC_WATCH);
+
+        addToItemGroup(ModItemGroup.TIME_GROUP, TIME_WATCH);
+        addToItemGroup(ModItemGroup.TIME_GROUP, BASIC_WATCH);
     }
+
+
+
 
     private static void addToItemGroup(ItemGroup group, Item item){
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

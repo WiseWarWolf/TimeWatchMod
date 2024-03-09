@@ -1,3 +1,6 @@
 {
-  "item.timewatchmod.time_watch": "Time Watch"
+  "item.timewatchmod.time_watch": "Time Watch",
+  "item.timewatchmod.basic_watch": "Basic Watch",
+
+  "itemgroup.time_group": "Time Watch Mod"
 }
